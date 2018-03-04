@@ -1895,8 +1895,7 @@ section.comment {
   padding: 0.5em 0;
 }
 footer {
-  margin-top: 1em;
-  background: #1f1f1f;
+  margin-top: 3em;
   padding: 0 2% 0.5em;
 }
 #footer {
@@ -1961,25 +1960,21 @@ footer {
   }
 }
 .info {
-  font-family: "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
-  line-height: 1.65;
-  width: 100%;
+  font-family: "covered_by_your_graceregular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 150%;
+  line-height: 1.3em;
+  width: 90%;
   margin: 0 auto;
   color: #fff;
-  text-align: center;
 }
 @media only screen and (min-width: 768px) {
   .info {
-    margin: 1.5em 0 2em 0;
+    margin: 4.5em 0 2em 0;
     float: left;
+    width: 75%;
   }
-}
-.info a {
-  color: #2ca6cb;
-}
-.info a:hover {
-  color: #2ca6cb;
-  text-decoration: underline;
 }
 .social-font {
   width: 100%;
@@ -2065,8 +2060,9 @@ footer {
   content: "\f142";
 }
 .copyright {
-  font-family: "Helvetica Neue", "Helvetica", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
-  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "covered_by_your_graceregular";
   width: 100%;
   color: #fff;
   text-align: center;
